@@ -1,0 +1,4 @@
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/admintest/repo1
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
